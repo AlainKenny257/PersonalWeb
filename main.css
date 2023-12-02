@@ -1,0 +1,289 @@
+		body {
+			margin: 0;
+			padding: 0;
+      background-color: #2b2b2b;
+      /* background-image: url(./images/bg21.jpg); */
+      background-size: cover;
+			font-family: Arial, sans-serif;
+      color: #cecece;
+		}
+		
+		nav {
+			background-color: #e2e2e2;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			display: inline-block;
+            padding: 20px;
+			color: #0e0e0e;
+			text-decoration: none;
+			font-weight: bold;
+            font-size: 20px;
+		}
+
+        nav a:hover {
+			color: #00a6f3;
+		}
+
+        .active{
+            color: #2e7596;
+        }
+
+        .auca{
+            float: left;
+            font-size: 30px;
+        }
+
+        .table table{
+            margin: 150px auto;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        .table table td,th{
+            margin: 150px auto;
+            background-color: white;
+            padding: 25px; 
+        }
+
+        .table table th{
+            margin: 150px auto;
+            background-color: rgb(26, 89, 141);
+            color: #f2f2f2;
+            padding: 25px; 
+            font-size: 20px;
+        }
+
+        div.content {
+            margin-top: 100px;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            display: grid;
+            content: "";
+          }
+        
+          .flex-container {
+            display: flex;
+          }
+          
+          .flex-container > div {
+            margin: 10px;
+            padding: 20px;
+            width: 50%;
+            font-size: 30px;
+          }
+
+        div.mission {
+          margin-top: 300px;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 40px;
+            width: 50%;
+          }
+        
+          .mission em{
+            color: #616161;
+          }
+          div.vision {
+            float: right;
+            border-radius: 100px;
+            width: 40%;
+          }
+
+          div.vision  img{
+            margin-top: 100px;
+            margin-left: 200px;
+            border-radius: 400px;
+            box-shadow:  6px 6px 50px rgb(212, 212, 212);
+            width: 70%;
+          }
+
+
+          em{
+            color: yellow;
+          }
+        div.info {
+            margin: 100px auto;
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            padding: 20px;
+            width: 600px;
+          }
+
+          div.man {
+            margin: 100px auto;
+            border-radius: 5px;
+            padding: 20px;
+            width: 60%;
+          }
+
+
+          .man a{
+            text-decoration: none;
+            color: rgb(215, 59, 59);
+            font-weight: 600;
+            font-size: 35px;
+          }
+
+
+          div.man h1{
+            text-align: center;
+            font-size: 60px;
+            text-shadow:  4px 4px 20px rgb(157, 66, 66);
+          }
+
+          div.man em{
+            color: #000000;
+            text-align: center;
+            font-size: 30px;
+            text-shadow:  4px 4px 20px rgb(169, 169, 169);
+            font-weight: 600;
+          }
+
+          div.man p{
+            font-size: 30px;
+          }
+
+          div.info a{
+            text-decoration: none;
+            color: rgb(230, 0, 0);
+            font-size: 20px;
+          }
+
+          div.info {
+            font-size: 25px;
+          }
+
+        /* Gallery codes */
+
+        div.maingal{
+            margin:100px 100px;
+        }
+
+        div.gallery {
+            margin: 10px;
+            float: left;
+            display: block;
+            width: 400px;
+          }
+        
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 10px;
+            text-align: center;
+            background-color: #cecece;
+          }
+
+
+          /* Form codes */
+
+          input[type=text],input[type=email], input[type=file], textarea {
+            width: 100%;
+            padding: 15px 20px;
+            margin: 8px 0;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            border: 3px solid #303030;
+            border-radius: 10px;
+            box-sizing: border-box;
+          }
+
+          
+          
+          input[type=submit] {
+            width: 100%;
+            background-color: #4c98af;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            font-size: 15px;
+            font-weight: bolder;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: white;
+            color: #4c98af;
+          }
+          
+          div.form {
+            margin: 100px auto;
+            border-radius: 5px;
+            background-color: #e9e9e9;
+            padding: 15px;
+            width: 600px;
+          }
+
+          .form h1{
+            color: black;
+            text-align: center;
+            font-size: 40px;
+          }
+
+
+          /* Footer codes */
+        .footer_section {
+            font-weight: 500;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            padding: 20px;
+            background-color: #101010;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+          }
+          
+          .footer_section p {
+            color: rgba(197, 197, 197, 0.932);
+            margin: 0;
+            text-align: center;
+          }
+          
+          .footer_section a {
+            color: rgba(254, 254, 255, 0.7);
+            text-decoration: none;
+          }
+
+          table {
+            width: 90%;
+            margin: 100px auto;
+            color: #588c7e;
+            font-family: monospace;
+            font-size: 25px;
+            text-align: left;
+            border: 4px solid black;
+            box-shadow: 6px 6px 10px rgb(131, 131, 131);
+        }
+        th {
+            background-color: #000000;
+            color: white;
+        }
+        tr{
+          background-color: #588c7e;
+          color: black;
+        }
+        tr:nth-child(even) {background-color: #777373}
+
+        /* table {
+          margin: 100px auto;
+          border: 1px solid rgb(145, 145, 145);
+      }
+      th, td {
+          padding: 10px;
+          background-color: #bebebe;
+          color: #1c1c1c;
+          text-align: left;
+      } */
